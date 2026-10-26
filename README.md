@@ -8,10 +8,10 @@ auto-refresh every 10 minutes plus a manual refresh button.
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
-Opens at http://localhost:3000
+Opens at http://localhost:5173
 
 ## 2. Put it on GitHub
 
@@ -49,7 +49,7 @@ git push -u origin main
 - **Vercel**: go to vercel.com → New Project → Import your GitHub repo →
   it auto-detects Create React App → Deploy. You get a live `.vercel.app` link.
 - **Netlify**: go to netlify.com → Add new site → Import from GitHub →
-  Build command `npm run build`, publish directory `build` → Deploy.
+  Build command `npm run build`, publish directory `dist` (already set in `netlify.toml`) → Deploy.
 
 ## Notes
 
